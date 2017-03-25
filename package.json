@@ -1,0 +1,30 @@
+{
+  "name": "frontend-auplate-v2",
+  "version": "2.0.0",
+  "description": "AuCreative front-end master workflow",
+  "main": "index.js",
+  "author": "Ngo Dang Truong",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-google-webfonts": "^0.0.14",
+    "gulp-html-prettify": "^0.0.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-merge-json": "^1.0.0",
+    "gulp-minify": "^0.0.15",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.1.2",
+    "gulp-yaml": "^1.0.1"
+  }
+}

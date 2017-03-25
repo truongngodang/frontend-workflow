@@ -1,0 +1,28 @@
+include products/products
+doctype html
+html(lang="en")
+    head
+        meta(charset='UTF-8')
+        block title
+        meta(name='description', content='Resto theme tempalte')
+        meta(name='keywords', content='Resto theme template')
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        link(rel="icon" href="img/icons/favicon.ico" type="image/gif" sizes="16x16")
+        //Fonts
+        link(href='fonts/fonts.css', rel='stylesheet')
+        //Icons fonts
+
+        //Styles
+        link(href='vendor/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+        block style
+        //Theme style
+        link(href='css/main.min.css', rel='stylesheet')
+
+    body
+        block content
+        // Javascript
+        script(src='vendor/jquery/dist/jquery.min.js')
+        script(src='vendor/bootstrap/dist/js/bootstrap.min.js')
+
+        script(src='js/main.min.js')
+        block script

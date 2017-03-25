@@ -1,0 +1,38 @@
+---
+products:
+    -   name: Modern White Vase
+        cost: $ 195.00
+        image: img/product-item-01.jpg
+
+    -   name: White Flower Vase
+        cost: $ 300.00
+        image: img/product-item-02.jpg
+
+    -   name: Takashi Endo
+        cost: $ 150.00
+        old_cost: $ 250.00
+        status: Sale
+        image: img/product-item-03.jpg
+
+    -   name: Carved Bungalow Spoon
+        cost: $ 230.00
+        image: img/product-item-04.jpg
+
+    -   name: Ceramic Vase
+        cost: $ 150.00
+        status: New
+        image: img/product-item-05.jpg
+
+    -   name: Porcelain Vase
+        cost: $ 525.00
+        image: img/product-item-06.jpg
+
+    -   name: Semi-porcelain Tableware
+        cost: $ 80.00
+        image: img/product-item-07.jpg
+
+    -   name: Porcelain Tray
+        cost: $ 134.00
+        old_cost: $ 255.00
+        status: Sale
+        image: img/product-item-08.jpg

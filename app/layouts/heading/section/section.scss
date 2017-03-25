@@ -1,0 +1,31 @@
+// Heading Section
+.heading-section {
+  @include clearfix;
+  border-bottom: 2px solid #e1e1e1;
+  .heading-text {
+    float: left;
+    h3 {
+      margin-top: 0;
+      text-transform: uppercase;
+    }
+  }
+  .heading-utility {
+    float: right;
+  }
+}
+
+// Products Section Heading
+.heading-products {
+  .heading-utility {
+    li {
+      margin-left: 50px;
+      a {
+        font-size: 18px;
+        color: #999;
+        &:hover {
+          color: $primaryColorDark;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+/*-------------------------------------
+              Base Button
+--------------------------------------*/
+
+.au-btn {
+
+  border: none;
+  outline: none !important;
+  line-height: 1;
+  font-size: 13px;
+  font-weight: $semiBold;
+  letter-spacing: 0.2em;
+  transition: $fast !important;
+
+  &:hover {
+    transition: $fast !important;
+  }
+  
+  &-white {
+    background-color: $white;
+    color: $darkBrown;
+    &:hover {
+      background-color: $primaryColor;
+    }
+  }
+
+  &-black {
+    background-color: $darkBrown;
+    color: $white;
+    &:hover {
+      background-color: $primaryColor;
+    }
+  }
+
+  &-pill {
+    border-radius: 100px;
+  }
+
+  &-radius {
+    border-radius: 3px;
+  }
+
+  &-border {
+    background-color: transparent;
+    border: 1px solid $darkBrown;
+    color: $darkBrown;
+    &:hover {
+      background-color: $darkBrown;
+      color: $white;
+    }
+    &-invert {
+      border: 1px solid $white;
+      color: $white;
+      &:hover {
+        background-color: $white;
+        color: $darkBrown;
+      }
+    }
+  }
+  
+  &-primary {
+
+  }
+
+  &-border {
+
+  }
+
+  &-xs {
+    padding: 10px 20px;
+  }
+
+  &-md {
+    padding: 17px 30px;
+  }
+
+  &-lg {
+    padding: 20px 50px;
+  }
+}
+
+.ripplelink{
+  overflow:hidden;
+  position: relative;
+}
+
+.ink {
+  display: block;
+  position: absolute;
+  background:rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  -webkit-transform:scale(0);
+  -moz-transform:scale(0);
+  -o-transform:scale(0);
+  transform:scale(0);
+}
+
+.animate {
+  -webkit-animation:ripple 0.65s linear;
+  -moz-animation:ripple 0.65s linear;
+  -ms-animation:ripple 0.65s linear;
+  -o-animation:ripple 0.65s linear;
+  animation:ripple 0.65s linear;
+}
+
+@-webkit-keyframes ripple {
+  100% {opacity: 0; -webkit-transform: scale(2.5);}
+}
+@-moz-keyframes ripple {
+  100% {opacity: 0; -moz-transform: scale(2.5);}
+}
+@-o-keyframes ripple {
+  100% {opacity: 0; -o-transform: scale(2.5);}
+}
+@keyframes ripple {
+  100% {opacity: 0; transform: scale(2.5);}
+}

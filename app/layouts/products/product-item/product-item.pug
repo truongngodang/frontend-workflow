@@ -1,0 +1,16 @@
+mixin ProductItem(data)
+    .product-item
+        .product-image
+            img(src=data.image, alt=data.name)
+            .quick-link
+                a(href='#') Quick Shop
+            if data.status
+                .status
+                    span=data.status
+        .product-content
+            .product-name
+                a(href='#')=data.name
+            .product-cost
+                span=data.cost
+                if data.old_cost
+                    span.old-cost=data.old_cost

@@ -1,0 +1,30 @@
+/*-------------------------------------
+              Base styles
+--------------------------------------*/
+
+
+body {
+  font: 15px/1.6 $bodyFont;
+  color: $textColor;
+  overflow-x: hidden;
+}
+
+@include for-size($big-desktop-up){
+  .container {
+    width: 1200px;
+  }
+}
+
+a, button {
+  transition: $fast;
+  text-decoration: none !important;
+  &:hover {
+    transition: $fast;
+  }
+}
+
+button {
+  &:focus {
+    outline: none;
+  }
+}

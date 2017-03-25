@@ -1,0 +1,73 @@
+/*-------------------------------------
+                Base Form
+--------------------------------------*/
+
+.au-input {
+  border: none;
+  border-bottom: 1px solid $darkBrown;
+  font-size: 16px;
+  font-weight: $light;
+  padding-bottom: 7px;
+  height: 42px;
+  display: block;
+  &:focus {
+    outline: none;
+  }
+}
+
+
+
+.au-select {
+  border: none;
+  border-bottom: 1px solid $darkBrown;
+  border-radius: 0;
+  padding-left: 0;
+
+  span {
+    font-size: 16px;
+    font-weight: $light;
+  }
+
+  &:after {
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    display: block;
+    height: 8px;
+    width: 8px;
+    margin-top: -6px;
+  }
+
+  .list {
+    width: 100%;
+  }
+}
+
+.au-input-icon {
+  position: relative;
+  &:after {
+    font-family: FontAwesome, sans-serif;
+    top: 50%;
+    right: 15px;
+    margin-top: -15px;
+    color: #a9a69e;
+    position: absolute;
+  }
+}
+
+.au-input-icon.calendar {
+  &:after {
+    content: '\f274';
+  }
+}
+
+.au-input-icon.location {
+  &:after {
+    content: '\f124';
+  }
+}
+
+.au-input-icon.clock {
+  &:after {
+    content: '\f017';
+  }
+}

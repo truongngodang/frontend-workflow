@@ -1,0 +1,16 @@
+include product-item/product-item
+include ../heading/section/section
+
+mixin Products
+    section.products
+        .products-wrapper
+            .container
+                .products-inner
+                    +HeadingProducts
+                    .product-list
+                        .row
+                            each val in products
+                                .col-md-3.col-sm-6
+                                    +ProductItem(val)
+
+
